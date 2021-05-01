@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section
+{
+    height: 100vh;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+}
+.testimonial
+{
+    margin-top: 300px;
+    position: relative;
+}
+img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin: 15px;
+    border: 1px solid rgba(51, 51, 51, 0.164);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+p
+{
+    display: block;
+    position: absolute;
+    margin: 200px 150PX 0 150PX;
+    font-size: 45px;
+    text-align: center;
+}
